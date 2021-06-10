@@ -1,24 +1,27 @@
-# README
+# Face Recognition Using face-api.js
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+    This project is a test for face recognition, detection and image recognition using face-api.js
+    At the first page, there is real time face recognition and a link to go to the detection page.
+    At the detection page, you can detect face and expression like happy, sad and angry etc..
+    And there is also a link to go to image recognition page.
+    At this page, you can upload an image and can get the recognition results if the image contains in the testing data.
 
-Things you may want to cover:
 
-* Ruby version
+# Prerequisites
 
-* System dependencies
+1. install ruby 2.5.8
 
-* Configuration
+2. run bundle install
+```
+    bundle install    
+```
+3. start server
+```
+    rails server
+```
 
-* Database creation
+# Start
+1. access `loaclhost:3000`
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
